@@ -1,0 +1,20 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.add-border{
+  background-color: white;
+  color: red;
+}
+#parent-list {
+  display: flex;
+  justify-content: space-around;
+  background: blue;
+  color: white;
+  height: 100%;
+}
+#parent-list li{
+  display: block;
+  font-size: 2em;
+  padding: .2em;
+}
