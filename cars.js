@@ -1,4 +1,4 @@
-document.getElementById("parent-list").addEventListener("click",function(e){
+document.querySelector(".parent-list").addEventListener("click",function(e){
 
   var elem = e.target;
   elem.classList.toggle('add-border');
@@ -12,9 +12,7 @@ document.getElementById("parent-list").addEventListener("click",function(e){
    return siblings;
 };
   var siblings = getSiblings(elem);
-  console.log(siblings);
   siblings.map(function(sib){
-    console.log(sib);
     sib.classList.remove('add-border')
   })
 });
