@@ -2,6 +2,18 @@
   margin: 0;
   padding: 0;
 }
+@keyframes content {
+  0% {font-size: 2em;top: 100px;left:30%;color:red}
+  20% {font-size: 4em;top: 200px;left:10%;color:blue}
+  50% {font-size: 6em;top: 50px;left:60%;color:yellow}
+  80% {font-size: 8em;top: 250px;left:30%;color:pink}
+}
+footer {
+  padding: 17px;
+  color: white;
+  background: blue;
+  text-align: center;
+}
 .add-border{
   background-color: white;
   color: red;
@@ -17,4 +29,19 @@
   display: block;
   font-size: 2em;
   padding: .2em;
+  flex-basis: 20%;
+  text-align: center;
+}
+.content-container{
+  height: 80vh;
+}
+.start-animation {
+  position: relative;
+  font-size: 8em;
+  top: 100px;
+  left: 30%;
+  color: #046780;
+  transform: rotate(360deg);
+  animation-name: content;
+  animation-duration: 5s;
 }
