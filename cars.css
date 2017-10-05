@@ -29,7 +29,7 @@ footer {
   display: block;
   font-size: 2em;
   padding: .2em;
-  flex-basis: 20%;
+  flex-basis: 100%;
   text-align: center;
 }
 .content-container{
@@ -44,4 +44,5 @@ footer {
   transform: rotate(360deg);
   animation-name: content;
   animation-duration: 5s;
+  text-shadow: 5px 6px 10px #ff0000;
 }
