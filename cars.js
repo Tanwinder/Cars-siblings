@@ -29,3 +29,9 @@ document.querySelector(".parent-list").addEventListener("click",function(e){
     sib.classList.remove('add-border')
   });
 });
+function mainFunc(){
+var content= document.querySelector('.content-container');
+content.innerHTML = 'Honda';
+content.classList.add('start-animation');
+}
+window.onload= mainFunc;
