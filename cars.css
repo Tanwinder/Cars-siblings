@@ -11,7 +11,7 @@
 footer {
   padding: 17px;
   color: white;
-  background: blue;
+  background-color: #046780;;
   text-align: center;
 }
 .add-border{
@@ -21,7 +21,7 @@ footer {
 .parent-list {
   display: flex;
   justify-content: space-around;
-  background: blue;
+  background-color: #046780;;
   color: white;
   height: 100%;
 }
